@@ -1,0 +1,50 @@
+.gibier .background {
+  background-color: #eae7ba;
+  background-image: url('../images/body-bg.svg');
+  background-size: 50vw auto;
+  color: #424133;
+}
+
+.gibier .page_0 .page-background {
+  background-image: url('../images/rubykaigi2018.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gibier .page_0 .page-header {
+  margin: 3em 0;
+}
+
+.gibier .page_0 h1 {
+  color: #424133;
+  /*font-size: 1.4em;*/
+}
+
+.gibier .page_0 p.icon {
+  margin: 0;
+  position: relative;
+  left: 32em;
+  top: -4em;
+  /*top: 4.2em;*/
+}
+
+.page p.portlait-left {
+  text-align: left;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page p.portlait-left img {
+  width: 38%;
+  margin-top: 12%;
+  float: left;
+}
+
+.page .right ~ * {
+    position: relative;
+    float: left;
+    margin-top: 10em;
+    margin-left: 2em;
+}

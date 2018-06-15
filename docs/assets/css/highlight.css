@@ -1,6 +1,7 @@
 @font-face{ 
   font-family: Inconsolata;
-  src: url(fonts/Inconsolata-Regular.ttf) format(truetype);
+  src: url(../fonts/Inconsolata-Regular.woff) format('woff'),
+       url(../fonts/Inconsolata-Regular.ttf) format('truetype');
 }
 
 .highlight {
@@ -8,7 +9,7 @@
 }
 
 .highlight pre {
-  font-family: Inconsolata, monospace;
+  font-family: Inconsolata, Consolas, 'Courier New', Courier, Monaco, monospace;
   font-size: 0.9em;
 }
 

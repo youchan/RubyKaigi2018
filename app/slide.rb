@@ -182,9 +182,6 @@ module Gibier
         top = (window_height / zoom - SLIDE_HEIGHT) / 2
       end
 
-
-      puts ">>>>> zoom: #{zoom}, top: #{top}, left: #{left}"
-
       rect = OpenStruct.new(top: top, left: left, width: SLIDE_WIDTH, height: SLIDE_HEIGHT, zoom: zoom)
 
       footer_style = @state[:page_number] == 1 || !@state[:footer_visible] ? {style: {display: 'none'}} : {}

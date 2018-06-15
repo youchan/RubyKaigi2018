@@ -33,9 +33,9 @@ GEM
       addressable (>= 2.1.1)
       eventmachine (>= 0.12.9)
     eventmachine (1.2.7)
-    ffi (1.9.24)
+    ffi (1.9.25)
     fssm (0.2.10)
-    gibier (0.8.11)
+    gibier (0.8.14)
       eventmachine
       fssm
       haml
@@ -54,7 +54,7 @@ GEM
       temple (>= 0.8.0)
       tilt
     hike (1.2.3)
-    hyalite (0.2.6)
+    hyalite (0.2.7)
       opal
     multi_json (1.13.1)
     opal (0.11.0)
